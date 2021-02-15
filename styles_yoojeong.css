@@ -1,0 +1,164 @@
+
+/*Typography*/
+body {
+  background-color: hsl(257, 40%, 49%)! important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*******Nav-bar******/
+
+
+.first-section {
+  padding:3%;
+}
+
+
+/***** Top row *****/
+.row {
+  color:#ffff;
+  height:auto;
+}
+
+
+.title-image {
+  width:100%;
+  height:auto;
+}
+
+/*.secondrow{
+  padding:60px 100px;
+}
+*/
+
+
+.big-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+
+}
+
+/***** Buttons *****/
+
+
+
+.btn {
+  border-radius: 25px;
+  background-color: #ffff;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: hsl(257, 40%, 49%);
+  position: relative;
+  padding: 10px 60px;
+  font-size: 1rem;
+}
+
+/******** Footers **********/
+
+.Footers {
+  display:flex;
+  justify-content: flex-end;
+
+}
+.social-icon {
+  border-radius: 100%;
+   padding: 10px 15px;
+}
+
+#icon {
+  margin:10px;
+}
+
+
+/*********Z-index*****/
+
+.desktop-background {
+  position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: -1;
+}
+
+
+
+/**** Media Query for Desktop background *****/
+
+@media screen and (min-width: 376px)  {
+  .desktop-background {
+    position: absolute;
+     left: 0px;
+     top: 0px;
+     z-index: -1;
+  }
+.mobile-background {
+  display:none;
+}
+.row {
+  margin: 5% 4%;
+  width:100%;
+  }
+
+.secondrow{
+   padding:60px 100px;
+  }
+
+}
+
+/**** Media Query for Tablet background*****/
+
+
+
+/**Media Query for mobiile phone ***/
+@media screen and (max-width:375px) {
+  .mobile-background {
+    position: absolute;
+     left: 0px;
+     top: 0px;
+     z-index: -1;
+  }
+  .desktop-background {
+    display:none;
+  }
+
+  .secondrow{
+     padding:20px 10px;
+    }
+
+
+.img {
+  padding:200px;
+}
+
+#logo-img{
+  width:50%;
+}
+
+#first-navbar {
+  padding: 30px;
+}
+
+#screen-image {
+  padding:30px;
+}
+
+#first-heading{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#text {
+  text-align: center;
+}
+
+.button-section {
+  padding-top:5px;
+  text-align: center;
+}
+
+#footer {
+padding: 30px 80px;
+}
+
+}
